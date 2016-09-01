@@ -18,10 +18,10 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.gallery3d">
 
     <PreferenceCategory android:title="@string/slideshow_settings" >
-        <CheckBoxPreference
+        <SwitchPreference
             android:key="slideshow_random"
             android:title="@string/slideshow_random_title" />
-        <CheckBoxPreference
+        <SwitchPreference
             android:key="slideshow_repeat"
             android:title="@string/slideshow_repeat_title"
             android:defaultValue="true" />
