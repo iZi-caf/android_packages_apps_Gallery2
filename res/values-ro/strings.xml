@@ -22,9 +22,7 @@
   <!-- Title for picture frame gadget to show in list of all available gadgets -->
   <string name="gadget_title">Ramă foto</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Activity label. This might show up in the activity-picker -->
   <string name="movie_view_label">Player video</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
@@ -54,10 +52,8 @@
   <string name="resume_playing_restart">Începeţi din nou</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
-  <string name="crop_save_text">OK</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
-  <string name="ok">OK</string>
   <!-- Button indicating that the cropped image should be reverted back to the original -->
   <!-- Hint that appears when cropping an image with more than one face -->
   <string name="multiface_crop_help">Atingeţi o faţă pentru a începe.</string>
@@ -93,11 +89,6 @@
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">Ștergeţi</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
-  <plurals name="delete_selection">
-    <item quantity="one">Ștergeţi articolul selectat?</item>
-    <item quantity="few">Ștergeţi articolele selectate?</item>
-    <item quantity="other">Delete selected items?</item>
-  </plurals>
   <string name="confirm">Confirmaţi</string>
   <string name="cancel">Anulaţi</string>
   <string name="share">Distribuiţi</string>
@@ -118,25 +109,10 @@
   <string name="switch_to_camera">Comutaţi la Camera foto</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
-  <plurals name="number_of_items_selected">
-    <item quantity="one">%1$d selectat</item>
-    <item quantity="few">%1$d selectate</item>
-    <item quantity="other">%1$d selected</item>
-  </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
-  <plurals name="number_of_albums_selected">
-    <item quantity="one">%1$d selectat</item>
-    <item quantity="few">%1$d selectate</item>
-    <item quantity="other">%1$d selected</item>
-  </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
-  <plurals name="number_of_groups_selected">
-    <item quantity="one">%1$d selectat</item>
-    <item quantity="few">%1$d selectate</item>
-    <item quantity="other">%1$d selected</item>
-  </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">Afişaţi pe hartă</string>
   <string name="rotate_left">Rotiţi spre stânga</string>
@@ -226,7 +202,6 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Faceţi-le disponibile offline</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
-  <string name="more_image">More Images</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Actualizaţi</string>
   <!-- A label on a button. The user clicks this button after he has
@@ -260,7 +235,6 @@
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <string name="maker">Producător</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
-  <string name="model">Model</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <string name="flash">Bliţ</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
@@ -272,14 +246,10 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Timp expunere</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
-  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
-  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
-  <string name="manual">Manual</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
-  <string name="auto">Auto</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
   <string name="flash_on">Bliţ activat</string>
   <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->
@@ -287,11 +257,8 @@
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
   <string name="unknown">Necunoscută</string>
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
-  <string name="ffx_original">Original</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
-  <string name="ffx_vintage">Vintage</string>
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
-  <string name="ffx_instant">Instant</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
   <string name="ffx_bleach">Albire</string>
   <!-- String for filter that makes colors a bluish (filtershow_fx_0003_blue_crush) [CHAR LIMIT=10] -->
@@ -299,21 +266,14 @@
   <!-- String for filter that makes image black & white (filtershow_fx_0004_bw_contrast) [CHAR LIMIT=10] -->
   <string name="ffx_bw_contrast">Alb-negru</string>
   <!-- String for filter that makes colors a yellowish (filtershow_fx_0005_punch) [CHAR LIMIT=10] -->
-  <string name="ffx_punch">Punch</string>
   <!-- String for filter that mimics the cross-process technique in
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
   <string name="ffx_x_process">Proces. încr.</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
-  <string name="ffx_washout">Latte</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">Litografie</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
-  <plurals name="make_albums_available_offline">
-    <item quantity="one">Se face disponibil offline albumul.</item>
-    <item quantity="few">Se fac disponibile offline albumele</item>
-    <item quantity="other">Making albums available offline.</item>
-  </plurals>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
   <string name="try_to_set_local_album_available_offline">Acest element este stocat local şi disponibil offline.</string>
@@ -376,7 +336,6 @@
   <!-- The title of the dialog for choosing the type of widget. [CHAR LIMIT=20] -->
   <string name="widget_type">Alegeţi imagini</string>
   <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->
-  <string name="slideshow_dream_name">Slideshow</string>
   <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->
   <string name="albums">Albume</string>
   <!-- Group by Times tab on Action Bar. [CHAR LIMIT=12] -->
@@ -427,7 +386,6 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Nu se poate ajusta: videoclipul ţintă este prea scurt</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
-  <string name="mute_nosupport">Can not mute : not supported video</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">Se redă panorama</string>
   <!-- The label on the button that will save an edited image -->
@@ -435,25 +393,12 @@
   <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
   <!-- A label that indicates the media import operation completed [CHAR LIMIT=20] -->
   <!--  Text of notification message which is shown when user attaches camera -->
-  <string name="ingest_scanning" msgid="2048262851775139720">Scanning content\u2026</string>
   <!-- String indicating how many media items from the camera have been scanned -->
-  <plurals name="ingest_number_of_items_scanned">
-    <item quantity="one">%1$d element scanat</item>
-    <item quantity="few">%1$d (de) elemente scanate</item>
-    <item quantity="other">%1$d items scanned</item>
-  </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
-  <plurals name="ingest_number_of_items_selected">
-    <item quantity="one">%1$d item selected</item>
-    <item quantity="few">%1$d items selected</item>
-    <item quantity="other">%1$d items selected</item>
-  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
-  <string name="ingest_sorting" msgid="624687230903648118">Sorting\u2026</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
   <string name="ingest_scanning_done">Scanare finalizată</string>
   <!--  Status message shown when content from an external camera is being imported -->
-  <string name="ingest_importing">Importing\u2026</string>
   <!--  Status message shown when there is no content available to be imported -->
   <string name="ingest_empty_device">Nu există conținut disponibil de importat pe acest gadget.</string>
   <!--  Status message shown when there is no MTP device connected  -->
@@ -503,11 +448,6 @@
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
   <string name="pref_camera_timer_title">Cronometru numărătoare inversă</string>
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
-  <plurals name="pref_camera_timer_entry">
-    <item quantity="one">O secundă</item>
-    <item quantity="few">%d (de) secunde</item>
-    <item quantity="other">%d seconds</item>
-  </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 16]-->
   <string name="pref_camera_timer_sound_title">Beep numărătoare</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
@@ -554,19 +494,15 @@
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1 MP</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Mod focus</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
   <string name="pref_camera_focusmode_entry_auto">Automat</string>
   <string name="pref_camera_focusmode_entry_infinity">Infinit</string>
-  <string name="pref_camera_focusmode_entry_macro">Macro</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_focusmode_label_auto">AUTOMAT</string>
   <string name="pref_camera_focusmode_label_infinity">INFINIT</string>
-  <string name="pref_camera_focusmode_label_macro">MACRO</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
@@ -589,15 +525,11 @@
   <string name="pref_camera_whitebalance_label">BALANS DE ALB</string>
   <!-- Settings screen, White balance dialog radio button choices -->
   <string name="pref_camera_whitebalance_entry_auto">Automat</string>
-  <string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
   <string name="pref_camera_whitebalance_entry_daylight">Lumină de zi</string>
-  <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
   <string name="pref_camera_whitebalance_entry_cloudy">Înnorat</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
   <string name="pref_camera_whitebalance_label_auto">AUTOMAT</string>
-  <string name="pref_camera_whitebalance_label_incandescent">INCANDESCENT</string>
   <string name="pref_camera_whitebalance_label_daylight">LUMINĂ DE ZI</string>
-  <string name="pref_camera_whitebalance_label_fluorescent">FLUORESCENT</string>
   <string name="pref_camera_whitebalance_label_cloudy">ÎNNORAT</string>
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
@@ -605,7 +537,6 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automat</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Acţiune</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -644,13 +575,11 @@
   <string name="pref_exposure_label">EXPUNERE</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
-  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">CAMERA FOTO FRONTALĂ</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_front">CAMERA FOTO SPATE</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
-  <string name="dialog_ok">OK</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content" product="nosdcard">Spaţiul de stocare USB este aproape ocupat. Editaţi setarea de calitate sau ştergeţi câteva imagini ori alte fişiere.</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
@@ -876,7 +805,6 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Da</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
-  <string name="map_activity_not_found_err">There is no map app for show location.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">Cameră foto</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -891,21 +819,10 @@ CHAR LIMIT = NONE] -->
   <!-- settings label [CHAR LIMIT=50] -->
   <string name="camera_menu_settings_label">SETĂRI</string>
   <!-- String indicating how many photos are in an album [CHAR LIMIT=15] -->
-  <plurals name="number_of_photos">
-    <item quantity="one">%1$d fotografie</item>
-    <item quantity="few">%1$d fotografii</item>
-    <item quantity="other">%1$d photos</item>
-  </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
-  <string name="bass_boost_strength">Bass boost</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
-  <string name="virtualizer_strength">3D effect</string>
   <!-- The label for the audio effects menu. -->
-  <string name="audio_effects">Audio effects</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
-  <string name="headset_plug">Plug in headphones for these effects.</string>
   <!-- The title of the audio effects dialog. -->
-  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
-  <string name="fail_trim">Sorry, this video file can not be trimmed</string>
 </resources>

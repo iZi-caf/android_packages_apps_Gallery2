@@ -22,9 +22,7 @@
   <!-- Title for picture frame gadget to show in list of all available gadgets -->
   <string name="gadget_title">إطار الصورة</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Activity label. This might show up in the activity-picker -->
   <string name="movie_view_label">مشغّل الفيديو</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
@@ -93,14 +91,6 @@
   <!-- Details dialog "OK" button. Dismisses dialog. -->
   <string name="delete">حذف</string>
   <!-- String Delete the selected media item(s) [CHAR LIMIT=50] -->
-  <plurals name="delete_selection">
-    <item quantity="zero">هل تريد حذف العنصر المحدد؟</item>
-    <item quantity="one">هل تريد حذف العناصر المحددة؟</item>
-    <item quantity="two">Delete selected items?</item>
-    <item quantity="few">Delete selected items?</item>
-    <item quantity="many">Delete selected items?</item>
-    <item quantity="other">Delete selected items?</item>
-  </plurals>
   <string name="confirm">تأكيد</string>
   <string name="cancel">إلغاء</string>
   <string name="share">مشاركة</string>
@@ -121,34 +111,10 @@
   <string name="switch_to_camera">تبديل إلى الكاميرا</string>
   <!-- String indicating how many media item(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
-  <plurals name="number_of_items_selected">
-    <item quantity="zero">‏تم تحديد %1$d</item>
-    <item quantity="one">‏تم تحديد %1$d</item>
-    <item quantity="two">‏تم تحديد %1$d</item>
-    <item quantity="few">%1$d selected</item>
-    <item quantity="many">%1$d selected</item>
-    <item quantity="other">%1$d selected</item>
-  </plurals>
   <!-- String indicating how many media album(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
-  <plurals name="number_of_albums_selected">
-    <item quantity="zero">‏تم تحديد %1$d</item>
-    <item quantity="one">‏تم تحديد %1$d</item>
-    <item quantity="two">‏تم تحديد %1$d</item>
-    <item quantity="few">%1$d selected</item>
-    <item quantity="many">%1$d selected</item>
-    <item quantity="other">%1$d selected</item>
-  </plurals>
   <!-- String indicating how many media group(s) is(are) selected
             eg. 1 selected [CHAR LIMIT=30] -->
-  <plurals name="number_of_groups_selected">
-    <item quantity="zero">‏تم تحديد %1$d</item>
-    <item quantity="one">‏تم تحديد %1$d</item>
-    <item quantity="two">‏تم تحديد %1$d</item>
-    <item quantity="few">%1$d selected</item>
-    <item quantity="many">%1$d selected</item>
-    <item quantity="other">%1$d selected</item>
-  </plurals>
   <!-- String indicating timestamp of photo or video -->
   <string name="show_on_map">عرض على الخريطة</string>
   <string name="rotate_left">تدوير لليسار</string>
@@ -238,7 +204,6 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">جعلها متاحة في وضع عدم الاتصال</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
-  <string name="more_image">More Images</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">تحديث</string>
   <!-- A label on a button. The user clicks this button after he has
@@ -301,34 +266,22 @@
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
   <string name="ffx_original">أصلية</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
-  <string name="ffx_vintage">Vintage</string>
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
   <string name="ffx_instant">فوري</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
-  <string name="ffx_bleach">Bleach</string>
   <!-- String for filter that makes colors a bluish (filtershow_fx_0003_blue_crush) [CHAR LIMIT=10] -->
   <string name="ffx_blue_crush">أزرق</string>
   <!-- String for filter that makes image black & white (filtershow_fx_0004_bw_contrast) [CHAR LIMIT=10] -->
   <string name="ffx_bw_contrast">أبيض/أسود</string>
   <!-- String for filter that makes colors a yellowish (filtershow_fx_0005_punch) [CHAR LIMIT=10] -->
-  <string name="ffx_punch">Punch</string>
   <!-- String for filter that mimics the cross-process technique in
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
-  <string name="ffx_x_process">X Process</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
   <string name="ffx_washout">تبييض</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">صخري</string>
   <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->
-  <plurals name="make_albums_available_offline">
-    <item quantity="zero">جارٍ جعل الألبوم متاحًا في وضع عدم الاتصال.</item>
-    <item quantity="one">جارٍ جعل الألبومات متاحة في وضع عدم الاتصال.</item>
-    <item quantity="two">Making albums available offline.</item>
-    <item quantity="few">Making albums available offline.</item>
-    <item quantity="many">Making albums available offline.</item>
-    <item quantity="other">Making albums available offline.</item>
-  </plurals>
   <!-- Toast message shown after we try to make a local album available offline
          [CHAR LIMIT=150] -->
   <string name="try_to_set_local_album_available_offline">هذا العنصر مخزن محليًا ومتاح في وضع عدم الاتصال.</string>
@@ -442,7 +395,6 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">لا يمكن الاقتطاع: الفيديو المستهدف قصير جدًا</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
-  <string name="mute_nosupport">Can not mute : not supported video</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">جارٍ عرض البانوراما</string>
   <!-- The label on the button that will save an edited image -->
@@ -450,31 +402,12 @@
   <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
   <!-- A label that indicates the media import operation completed [CHAR LIMIT=20] -->
   <!--  Text of notification message which is shown when user attaches camera -->
-  <string name="ingest_scanning" msgid="2048262851775139720">Scanning content\u2026</string>
   <!-- String indicating how many media items from the camera have been scanned -->
-  <plurals name="ingest_number_of_items_scanned">
-    <item quantity="zero">‏تم مسح %1$d من العناصر ضوئيًا</item>
-    <item quantity="one">‏تم مسح %1$d عنصر ضوئيًا</item>
-    <item quantity="two">‏تم مسح %1$d من العناصر ضوئيًا</item>
-    <item quantity="few">%1$d items scanned</item>
-    <item quantity="many">%1$d items scanned</item>
-    <item quantity="other">%1$d items scanned</item>
-  </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
-  <plurals name="ingest_number_of_items_selected">
-    <item quantity="zero">%1$d items selected</item>
-    <item quantity="one">%1$d item selected</item>
-    <item quantity="two">%1$d items selected</item>
-    <item quantity="few">%1$d items selected</item>
-    <item quantity="many">%1$d items selected</item>
-    <item quantity="other">%1$d items selected</item>
-  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
-  <string name="ingest_sorting" msgid="624687230903648118">Sorting\u2026</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
   <string name="ingest_scanning_done">تم المسح الضوئي</string>
   <!--  Status message shown when content from an external camera is being imported -->
-  <string name="ingest_importing">Importing\u2026</string>
   <!--  Status message shown when there is no content available to be imported -->
   <string name="ingest_empty_device">لا يتوفر أي محتوى لاستيراده على هذا الجهاز.</string>
   <!--  Status message shown when there is no MTP device connected  -->
@@ -524,14 +457,6 @@
   <!-- Title for countdown timer on camera settings screen [CHAR LIMIT=30]-->
   <string name="pref_camera_timer_title">مؤقت العد التنازلي</string>
   <!-- Entry for countdown timer setting. e.g. 1 second, 10 seconds, etc. [CHAR LIMIT=30]-->
-  <plurals name="pref_camera_timer_entry">
-    <item quantity="zero">ثانية واحدة</item>
-    <item quantity="one">‏%d ثانية</item>
-    <item quantity="two">%d seconds</item>
-    <item quantity="few">%d seconds</item>
-    <item quantity="many">%d seconds</item>
-    <item quantity="other">%d seconds</item>
-  </plurals>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 16]-->
   <string name="pref_camera_timer_sound_title">صفير أثناء العد التنازلي</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
@@ -578,9 +503,7 @@
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1 ميغا بكسل</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">وضع التركيز</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
@@ -900,7 +823,6 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">نعم</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
-  <string name="map_activity_not_found_err">There is no map app for show location.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">الكاميرا</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -915,24 +837,10 @@ CHAR LIMIT = NONE] -->
   <!-- settings label [CHAR LIMIT=50] -->
   <string name="camera_menu_settings_label">إعدادات</string>
   <!-- String indicating how many photos are in an album [CHAR LIMIT=15] -->
-  <plurals name="number_of_photos">
-    <item quantity="zero">‏%1$d صورة</item>
-    <item quantity="one">‏%1$d من الصور</item>
-    <item quantity="two">%1$d photos</item>
-    <item quantity="few">%1$d photos</item>
-    <item quantity="many">%1$d photos</item>
-    <item quantity="other">%1$d photos</item>
-  </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
-  <string name="bass_boost_strength">Bass boost</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
-  <string name="virtualizer_strength">3D effect</string>
   <!-- The label for the audio effects menu. -->
-  <string name="audio_effects">Audio effects</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
-  <string name="headset_plug">Plug in headphones for these effects.</string>
   <!-- The title of the audio effects dialog. -->
-  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
-  <string name="fail_trim">Sorry, this video file can not be trimmed</string>
 </resources>

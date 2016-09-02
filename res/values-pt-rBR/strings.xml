@@ -393,7 +393,7 @@ Imagem recortada salva em <xliff:g id="folder_name">%s</xliff:g>.</string>
   <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
   <string name="folder_camera">Câmera</string>
   <!-- The label for the folder contains downloaded pictures. [CHAR LIMIT=20]-->
-  <string name="folder_download">Download</string>
+  <string name="folder_download">Transferidas</string>
   <!-- The label for the folder contains edited online pictures. [CHAR LIMIT=40]-->
   <string name="folder_edited_online_photos">Fotografias Online Editadas</string>
   <!-- The label for the folder contains pictures that was imported from an
@@ -644,7 +644,7 @@ Imagem recortada salva em <xliff:g id="folder_name">%s</xliff:g>.</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_front">Câmera traseira</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
-  <string name="dialog_ok">OK</string>
+  <string name="dialog_ok">Ok</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content" product="nosdcard">Seu armazenamento USB está ficando sem espaço. Altere a qualidade ou apague alguns arquivos.</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
@@ -898,7 +898,7 @@ CHAR LIMIT = NONE] -->
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <string name="headset_plug">Conecte o fone de ouvido para estes efeitos.</string>
   <!-- The title of the audio effects dialog. -->
-  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
+  <string name="audio_effects_dialog_title">Snapdragon Audio +</string>
   <!-- The tips of trimming video -->
   <string name="fail_trim">Desculpe, este vídeo não pode ser cortado</string>
 </resources>

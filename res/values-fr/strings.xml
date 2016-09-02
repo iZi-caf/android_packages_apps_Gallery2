@@ -22,9 +22,7 @@
   <!-- Title for picture frame gadget to show in list of all available gadgets -->
   <string name="gadget_title">Cadre d\'image</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Activity label. This might show up in the activity-picker -->
   <string name="movie_view_label">Lecteur Google Vidéos</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
@@ -54,10 +52,8 @@
   <string name="resume_playing_restart">Démarrer</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
-  <string name="crop_save_text">OK</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
-  <string name="ok">OK</string>
   <!-- Button indicating that the cropped image should be reverted back to the original -->
   <!-- Hint that appears when cropping an image with more than one face -->
   <string name="multiface_crop_help">Appuyer sur un visage pour commencer</string>
@@ -217,7 +213,6 @@
             [CHAR LIMIT=50] -->
   <string name="empty_album">Aucune image/vidéo disponible.</string>
   <!-- Album label used to indicate the collection of PWA Buzz/Post photos -->
-  <string name="picasa_posts">Posts</string>
   <!-- A label describing that the current screen is for the user to pick
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Consulter hors connexion</string>
@@ -234,7 +229,6 @@
   <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->
   <string name="title">Titre</string>
   <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->
-  <string name="description">Description</string>
   <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->
   <string name="time">Heure</string>
   <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->
@@ -246,7 +240,6 @@
   <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->
   <string name="height">Hauteur</string>
   <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->
-  <string name="orientation">Orientation</string>
   <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=14] -->
   <string name="duration">Durée</string>
   <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->
@@ -258,7 +251,6 @@
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
   <string name="model">Modèle</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
-  <string name="flash">Flash</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
   <string name="aperture">Ouverture</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
@@ -268,10 +260,8 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Durée d\'expo</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
-  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
-  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="manual">Manuel</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
@@ -283,9 +273,7 @@
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
   <string name="unknown">Inconnue</string>
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
-  <string name="ffx_original">Original</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
-  <string name="ffx_vintage">Vintage</string>
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
   <string name="ffx_instant">Instantané</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
@@ -300,7 +288,6 @@
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
   <string name="ffx_x_process">Rayons X</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
-  <string name="ffx_washout">Latte</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">Lithographie</string>
@@ -373,7 +360,6 @@
   <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->
   <string name="slideshow_dream_name">Diaporama</string>
   <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->
-  <string name="albums">Albums</string>
   <!-- Group by Times tab on Action Bar. [CHAR LIMIT=12] -->
   <string name="times">Heures</string>
   <!-- Group by Locations tab on Action Bar. [CHAR LIMIT=12] -->
@@ -381,7 +367,6 @@
   <!-- Group by People tab on Action Bar. [CHAR LIMIT=12] -->
   <string name="people">Contacts</string>
   <!-- Group by Tags tab on Action Bar. [CHAR LIMIT=12] -->
-  <string name="tags">Tags</string>
   <!-- Group by menu item. [CHAR LIMIT=20] -->
   <string name="group_by">Regrouper par</string>
   <!-- The title of the menu item which enable the settings [CHAR LIMIT=20] -->
@@ -546,19 +531,14 @@
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1 M pixels</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Mise au point</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
-  <string name="pref_camera_focusmode_entry_auto">Auto</string>
   <string name="pref_camera_focusmode_entry_infinity">Infini</string>
-  <string name="pref_camera_focusmode_entry_macro">Macro</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_focusmode_label_auto">AUTOMATIQUE</string>
   <string name="pref_camera_focusmode_label_infinity">INFINI</string>
-  <string name="pref_camera_focusmode_label_macro">MACRO</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
@@ -581,15 +561,11 @@
   <string name="pref_camera_whitebalance_label">BALANCE DES BLANCS</string>
   <!-- Settings screen, White balance dialog radio button choices -->
   <string name="pref_camera_whitebalance_entry_auto">Automatique</string>
-  <string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
   <string name="pref_camera_whitebalance_entry_daylight">Lumière du jour</string>
-  <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
   <string name="pref_camera_whitebalance_entry_cloudy">Nuageux</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
   <string name="pref_camera_whitebalance_label_auto">AUTOMATIQUE</string>
-  <string name="pref_camera_whitebalance_label_incandescent">INCANDESCENT</string>
   <string name="pref_camera_whitebalance_label_daylight">LUMIÈRE DU JOUR</string>
-  <string name="pref_camera_whitebalance_label_fluorescent">FLUORESCENT</string>
   <string name="pref_camera_whitebalance_label_cloudy">NUAGEUX</string>
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
@@ -597,9 +573,7 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automatique</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_action">Action</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_night">Nuit</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=16] -->
@@ -609,7 +583,6 @@
   <!-- Settings menu, scene mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_auto">AUCUN</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=50] -->
-  <string name="pref_camera_scenemode_label_action">ACTION</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=50] -->
   <string name="pref_camera_scenemode_label_night">NUIT</string>
   <!-- Scene mode optimized for taking images in the sunset. [CHAR LIMIT=50] -->
@@ -636,13 +609,11 @@
   <string name="pref_exposure_label">EXPOSITION</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
-  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">CAMÉRA FRONTALE</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_front">CAMÉRA ARRIÈRE</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
-  <string name="dialog_ok">OK</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content" product="nosdcard">La mémoire de stockage USB est pleine. Définissez la qualité sur une valeur plus basse ou supprimez des images ou d\'autres types de fichiers.</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
@@ -844,7 +815,6 @@ CHAR LIMIT = NONE] -->
   <!-- Seconds: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <string name="time_lapse_seconds">secondes</string>
   <!-- Minutes: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
-  <string name="time_lapse_minutes">minutes</string>
   <!-- Hours: a unit of time for time lapse intervals. [CHAR LIMIT = 20] -->
   <string name="time_lapse_hours">heures</string>
   <!-- The button to confirm time-lapse setting changes. [CHAR LIMIT = 20] -->
@@ -874,9 +844,7 @@ CHAR LIMIT = NONE] -->
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
   <string name="menu_search">Recherche</string>
   <!-- Title for the all photos tab [CHAR LIMIT=25] -->
-  <string name="tab_photos">Photos</string>
   <!-- Title for the albums tab [CHAR LIMIT=25] -->
-  <string name="tab_albums">Albums</string>
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
   <string name="camera_menu_more_label">PLUS D\'OPTIONS</string>
@@ -896,7 +864,6 @@ CHAR LIMIT = NONE] -->
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <string name="headset_plug">Brancher un casque pour utiliser ces effets.</string>
   <!-- The title of the audio effects dialog. -->
-  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
   <string name="fail_trim">Découpe de la vidéo impossible</string>
 </resources>

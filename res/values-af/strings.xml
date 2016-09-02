@@ -22,9 +22,7 @@
   <!-- Title for picture frame gadget to show in list of all available gadgets -->
   <string name="gadget_title">Prentraam</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Activity label. This might show up in the activity-picker -->
   <string name="movie_view_label">Videospeler</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
@@ -54,10 +52,8 @@
   <string name="resume_playing_restart">Begin van voor af</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
-  <string name="crop_save_text">OK</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
-  <string name="ok">OK</string>
   <!-- Button indicating that the cropped image should be reverted back to the original -->
   <!-- Hint that appears when cropping an image with more than one face -->
   <string name="multiface_crop_help">Raak aan \'n gesig om te begin.</string>
@@ -222,7 +218,6 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Maak vanlyn beskikbaar</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
-  <string name="more_image">More Images</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Herlaai</string>
   <!-- A label on a button. The user clicks this button after he has
@@ -254,9 +249,7 @@
   <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->
   <string name="file_size">Lêergrootte</string>
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
-  <string name="maker">Maker</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
-  <string name="model">Model</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <string name="flash">Flits</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
@@ -268,10 +261,8 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Beligtingstyd</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
-  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
-  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="manual">Handmatig</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
@@ -285,7 +276,6 @@
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
   <string name="ffx_original">Oorspronklike</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
-  <string name="ffx_vintage">Vintage</string>
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
   <string name="ffx_instant">Kits</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
@@ -300,7 +290,6 @@
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
   <string name="ffx_x_process">X-proses</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
-  <string name="ffx_washout">Latte</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">Lito</string>
@@ -373,7 +362,6 @@
   <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->
   <string name="slideshow_dream_name">Skyfievertoning</string>
   <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->
-  <string name="albums">Albums</string>
   <!-- Group by Times tab on Action Bar. [CHAR LIMIT=12] -->
   <string name="times">Tye</string>
   <!-- Group by Locations tab on Action Bar. [CHAR LIMIT=12] -->
@@ -422,7 +410,6 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Kan nie snoei nie: teikenvideo is te kort</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
-  <string name="mute_nosupport">Can not mute : not supported video</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">Weergewing van panorama</string>
   <!-- The label on the button that will save an edited image -->
@@ -430,23 +417,16 @@
   <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
   <!-- A label that indicates the media import operation completed [CHAR LIMIT=20] -->
   <!--  Text of notification message which is shown when user attaches camera -->
-  <string name="ingest_scanning" msgid="2048262851775139720">Scanning content\u2026</string>
   <!-- String indicating how many media items from the camera have been scanned -->
   <plurals name="ingest_number_of_items_scanned">
     <item quantity="one">%1$d item geskandeer</item>
     <item quantity="other">%1$d items geskandeer</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
-  <plurals name="ingest_number_of_items_selected">
-    <item quantity="one">%1$d item selected</item>
-    <item quantity="other">%1$d items selected</item>
-  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
-  <string name="ingest_sorting" msgid="624687230903648118">Sorting\u2026</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
   <string name="ingest_scanning_done">Klaar geskandeer</string>
   <!--  Status message shown when content from an external camera is being imported -->
-  <string name="ingest_importing">Importing\u2026</string>
   <!--  Status message shown when there is no content available to be imported -->
   <string name="ingest_empty_device">Daar is geen inhoud beskikbaar om op hierdie toestel in te voer nie.</string>
   <!--  Status message shown when there is no MTP device connected  -->
@@ -528,27 +508,18 @@
   <!-- Settings screen, Picture size title -->
   <string name="pref_camera_picturesize_title">Prentgrootte</string>
   <!-- Settings screen, dialog choice for 13 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_13mp">13M pixels</string>
   <!-- Settings screen, dialog choice for 8 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_8mp">8M pixels</string>
   <!-- Settings screen, dialog choice for 5 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_5mp">5M pixels</string>
   <!-- Settings screen, dialog choice for 4 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_4mp">4 M pieksels</string>
   <!-- Settings screen, dialog choice for 3 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_3mp">3M pixels</string>
   <!-- Settings screen, dialog choice for 2 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_2mp">2M pixels</string>
   <!-- Settings screen, dialog choice for 2 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_2mp_wide">2 M pieksels (16:9)</string>
   <!-- Settings screen, dialog choice for 1.3 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_1_3mp">1.3M pixels</string>
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_1mp">1M pixels</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Fokus</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
@@ -597,7 +568,6 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Outo</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Handeling</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -636,13 +606,11 @@
   <string name="pref_exposure_label">BELIGTING</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
-  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">VOORSTE KAMERA</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_front">AGTERSTE KAMERA</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
-  <string name="dialog_ok">OK</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content" product="nosdcard">Jou USB-berging se stoorspasie raak min. Verander die gehalte-instelling of vee \'n paar prente of ander lêers uit.</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
@@ -659,7 +627,6 @@
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
   <string name="pano_dialog_panorama_failed">Kon nie panorama stoor nie.</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
-  <string name="pano_dialog_title">Panorama</string>
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
   <string name="pano_capture_indication">Lê panorama vas</string>
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
@@ -868,7 +835,6 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Ja</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
-  <string name="map_activity_not_found_err">There is no map app for show location.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">Kamera</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -876,7 +842,6 @@ CHAR LIMIT = NONE] -->
   <!-- Title for the all photos tab [CHAR LIMIT=25] -->
   <string name="tab_photos">Foto\'s</string>
   <!-- Title for the albums tab [CHAR LIMIT=25] -->
-  <string name="tab_albums">Albums</string>
   <!-- Camera menu labels -->
   <!-- more options label [CHAR LIMIT=50] -->
   <string name="camera_menu_more_label">NOG OPSIES</string>
@@ -888,15 +853,9 @@ CHAR LIMIT = NONE] -->
     <item quantity="other">%1$d foto\'s</item>
   </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
-  <string name="bass_boost_strength">Bass boost</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
-  <string name="virtualizer_strength">3D effect</string>
   <!-- The label for the audio effects menu. -->
-  <string name="audio_effects">Audio effects</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
-  <string name="headset_plug">Plug in headphones for these effects.</string>
   <!-- The title of the audio effects dialog. -->
-  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
-  <string name="fail_trim">Sorry, this video file can not be trimmed</string>
 </resources>

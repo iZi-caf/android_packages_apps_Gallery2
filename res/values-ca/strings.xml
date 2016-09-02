@@ -22,9 +22,7 @@
   <!-- Title for picture frame gadget to show in list of all available gadgets -->
   <string name="gadget_title">Marc de la imatge</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Activity label. This might show up in the activity-picker -->
   <string name="movie_view_label">Reproductor de vídeo</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
@@ -222,7 +220,6 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Disponible fora de línia</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
-  <string name="more_image">More Images</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Actualitza</string>
   <!-- A label on a button. The user clicks this button after he has
@@ -256,7 +253,6 @@
   <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->
   <string name="maker">Creador</string>
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
-  <string name="model">Model</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
   <string name="flash">Flaix</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
@@ -268,12 +264,9 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Temps d\'exposició</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
-  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
-  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
-  <string name="manual">Manual</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="auto">Automàtic</string>
   <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->
@@ -283,9 +276,7 @@
   <!-- String indicating image width or height is unknown. [CHAR LIMIT=14] -->
   <string name="unknown">Desconegut</string>
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
-  <string name="ffx_original">Original</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
-  <string name="ffx_vintage">Vintage</string>
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
   <string name="ffx_instant">Instantània</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
@@ -300,7 +291,6 @@
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
   <string name="ffx_x_process">Procés X</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
-  <string name="ffx_washout">Latte</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">Litografia</string>
@@ -422,7 +412,6 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">No es pot retallar: el vídeo de destinació és massa curt</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
-  <string name="mute_nosupport">Can not mute : not supported video</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">Panorama de representació</string>
   <!-- The label on the button that will save an edited image -->
@@ -430,23 +419,12 @@
   <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
   <!-- A label that indicates the media import operation completed [CHAR LIMIT=20] -->
   <!--  Text of notification message which is shown when user attaches camera -->
-  <string name="ingest_scanning" msgid="2048262851775139720">Scanning content\u2026</string>
   <!-- String indicating how many media items from the camera have been scanned -->
-  <plurals name="ingest_number_of_items_scanned">
-    <item quantity="one">%1$d item scanned</item>
-    <item quantity="other">%1$d items scanned</item>
-  </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
-  <plurals name="ingest_number_of_items_selected">
-    <item quantity="one">%1$d item selected</item>
-    <item quantity="other">%1$d items selected</item>
-  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
-  <string name="ingest_sorting" msgid="624687230903648118">Sorting\u2026</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
   <string name="ingest_scanning_done">Escaneig fet</string>
   <!--  Status message shown when content from an external camera is being imported -->
-  <string name="ingest_importing">Importing\u2026</string>
   <!--  Status message shown when there is no content available to be imported -->
   <string name="ingest_empty_device">No hi ha contingut disponible per importar en aquest dispositiu.</string>
   <!--  Status message shown when there is no MTP device connected  -->
@@ -546,19 +524,15 @@
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1 Mp</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Mode d\'enfocament</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
   <string name="pref_camera_focusmode_entry_auto">Automàtic</string>
   <string name="pref_camera_focusmode_entry_infinity">Infinit</string>
-  <string name="pref_camera_focusmode_entry_macro">Macro</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
   <string name="pref_camera_focusmode_label_auto">AUTOMÀTIC</string>
   <string name="pref_camera_focusmode_label_infinity">INFINIT</string>
-  <string name="pref_camera_focusmode_label_macro">MACRO</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
@@ -581,15 +555,11 @@
   <string name="pref_camera_whitebalance_label">BALANÇ DE BLANCS</string>
   <!-- Settings screen, White balance dialog radio button choices -->
   <string name="pref_camera_whitebalance_entry_auto">Automàtica</string>
-  <string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
   <string name="pref_camera_whitebalance_entry_daylight">Llum natural</string>
-  <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
   <string name="pref_camera_whitebalance_entry_cloudy">Ennuvolat</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
   <string name="pref_camera_whitebalance_label_auto">AUTOMÀTIC</string>
-  <string name="pref_camera_whitebalance_label_incandescent">INCANDESCENT</string>
   <string name="pref_camera_whitebalance_label_daylight">LLUM NATURAL</string>
-  <string name="pref_camera_whitebalance_label_fluorescent">FLUORESCENT</string>
   <string name="pref_camera_whitebalance_label_cloudy">ENNUVOLAT</string>
   <!-- Default scene mode setting. -->
   <!-- Settings screen, Select Scene mode -->
@@ -597,7 +567,6 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automàtic</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Acció</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -636,7 +605,6 @@
   <string name="pref_exposure_label">EXPOSICIÓ</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
-  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">CÀMERA FRONTAL</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
@@ -659,7 +627,6 @@
   <!-- The text shown in the dialog when panorama saving failed [CHAR LIMIT=40] -->
   <string name="pano_dialog_panorama_failed">No s\'ha pogut desar el panorama.</string>
   <!-- The text shown on the dialog title in the dialogs for Panorama [CHAR LIMIT=12] -->
-  <string name="pano_dialog_title">Panorama</string>
   <!-- The text shown on the top-left corner of the screen to indicate the capturing is on going [CHAR LIMIT=27] -->
   <string name="pano_capture_indication">S\'està capturant un panorama</string>
   <!-- The text shown in the progress dialog when waiting for previous panorama finishing [CHAR LIMIT=40] -->
@@ -730,7 +697,6 @@
   <!-- The increment button in camera preference such as exposure, picture size. [CHAR LIMIT = NONE] -->
   <string name="accessibility_increment">Augmenta %1$s</string>
   <!-- The check box in camera settings, such as store location. [CHAR LIMIT = NONE] -->
-  <string name="accessibility_check_box">%1$s check box</string>
   <!-- The button to switch to Camera mode. [CHAR LIMIT = NONE] -->
   <string name="accessibility_switch_to_camera">Canvia a foto</string>
   <!-- The button to switch to Video mode. [CHAR LIMIT = NONE] -->
@@ -868,7 +834,6 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Sí</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
-  <string name="map_activity_not_found_err">There is no map app for show location.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">Càmera</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -888,15 +853,9 @@ CHAR LIMIT = NONE] -->
     <item quantity="other">%1$d fotos</item>
   </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
-  <string name="bass_boost_strength">Bass boost</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
-  <string name="virtualizer_strength">3D effect</string>
   <!-- The label for the audio effects menu. -->
-  <string name="audio_effects">Audio effects</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
-  <string name="headset_plug">Plug in headphones for these effects.</string>
   <!-- The title of the audio effects dialog. -->
-  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
-  <string name="fail_trim">Sorry, this video file can not be trimmed</string>
 </resources>

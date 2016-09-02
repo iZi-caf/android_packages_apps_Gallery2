@@ -22,9 +22,7 @@
   <!-- Title for picture frame gadget to show in list of all available gadgets -->
   <string name="gadget_title">Cornice immagine</string>
   <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->
-  <string name="details_ms">%1$02d:%2$02d</string>
   <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->
-  <string name="details_hms">%1$d:%2$02d:%3$02d</string>
   <!-- Activity label. This might show up in the activity-picker -->
   <string name="movie_view_label">Player Video</string>
   <!-- shown in the video player view while the video is being loaded, before it starts playing -->
@@ -54,10 +52,8 @@
   <string name="resume_playing_restart">Ricomincia</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
-  <string name="crop_save_text">OK</string>
   <!-- Title of a menu item to indicate performing the image crop operation
          [CHAR LIMIT=20] -->
-  <string name="ok">OK</string>
   <!-- Button indicating that the cropped image should be reverted back to the original -->
   <!-- Hint that appears when cropping an image with more than one face -->
   <string name="multiface_crop_help">Tocca un viso per iniziare.</string>
@@ -258,7 +254,6 @@
   <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->
   <string name="model">Modello</string>
   <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->
-  <string name="flash">Flash</string>
   <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->
   <string name="aperture">Diaframma</string>
   <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->
@@ -268,10 +263,8 @@
   <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->
   <string name="exposure_time">Tempo esposiz.</string>
   <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->
-  <string name="iso">ISO</string>
   <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->
   <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->
-  <string name="unit_mm">mm</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
   <string name="manual">Manuale</string>
   <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->
@@ -285,22 +278,16 @@
   <!-- String for the empty not filtered image [CHAR LIMIT=10] -->
   <string name="ffx_original">Originale</string>
   <!-- String for brown-colored old-fashion looking filter (filtershow_fx_0000_vintage) [CHAR LIMIT=10] -->
-  <string name="ffx_vintage">Vintage</string>
   <!-- String for filter that brightens colors like instant cameras(filtershow_fx_0001_instant) [CHAR LIMIT=10] -->
-  <string name="ffx_instant">Instant</string>
   <!-- String for filter that washes out colors (filtershow_fx_0002_bleach) [CHAR LIMIT=10] -->
-  <string name="ffx_bleach">Bleach</string>
   <!-- String for filter that makes colors a bluish (filtershow_fx_0003_blue_crush) [CHAR LIMIT=10] -->
   <string name="ffx_blue_crush">Blu</string>
   <!-- String for filter that makes image black & white (filtershow_fx_0004_bw_contrast) [CHAR LIMIT=10] -->
   <string name="ffx_bw_contrast">Bianco e nero</string>
   <!-- String for filter that makes colors a yellowish (filtershow_fx_0005_punch) [CHAR LIMIT=10] -->
-  <string name="ffx_punch">Punch</string>
   <!-- String for filter that mimics the cross-process technique in
          photography (makes colors bluish) (filtershow_fx_0006_x_process) [CHAR LIMIT=10] -->
-  <string name="ffx_x_process">X Process</string>
   <!-- String for filter that makes image coffee-colored (filtershow_fx_0007_washout) [CHAR LIMIT=10] -->
-  <string name="ffx_washout">Latte</string>
   <!-- String for filter that makes colors washed out and brownish
          (filtershow_fx_0008_washout_color) [CHAR LIMIT=10] -->
   <string name="ffx_washout_color">Litografia</string>
@@ -391,14 +378,12 @@
   <!-- The label for the folder contains pictures taken by the camera. [CHAR LIMIT=20]-->
   <string name="folder_camera">Fotocamera</string>
   <!-- The label for the folder contains downloaded pictures. [CHAR LIMIT=20]-->
-  <string name="folder_download">Download</string>
   <!-- The label for the folder contains edited online pictures. [CHAR LIMIT=40]-->
   <string name="folder_edited_online_photos">Foto online modificate</string>
   <!-- The label for the folder contains pictures that was imported from an
          external camera. [CHAR LIMIT=20]-->
   <string name="folder_imported">Importate</string>
   <!-- The label for the folder contains screenshot images. [CHAR LIMIT=20]-->
-  <string name="folder_screenshot">Screenshot</string>
   <!-- The title of the menu item which display online help in browser. [CHAR LIMIT=20]-->
   <string name="help">Guida</string>
   <!-- The tilte of a dialog showing there is no external storage. [CHAR LIMIT=20] -->
@@ -546,19 +531,14 @@
   <!-- Settings screen, dialog choice for 1 megapixels picture size [CHAR LIMIT=15] -->
   <string name="pref_camera_picturesize_entry_1mp">1 MP</string>
   <!-- Settings screen, dialog choice for VGA picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_vga">VGA</string>
   <!-- Settings screen, dialog choice for QVGA picture size [CHAR LIMIT=15] -->
-  <string name="pref_camera_picturesize_entry_qvga">QVGA</string>
   <!-- Settings screen, Focus mode title -->
   <string name="pref_camera_focusmode_title">Messa a fuoco</string>
   <!-- Settings screen, Focus mode dialog radio button choices -->
   <string name="pref_camera_focusmode_entry_auto">Automatica</string>
   <string name="pref_camera_focusmode_entry_infinity">Infinito</string>
-  <string name="pref_camera_focusmode_entry_macro">Macro</string>
   <!-- Menu, focus mode labels [CHAR LIMIT=50] -->
-  <string name="pref_camera_focusmode_label_auto">AUTO</string>
   <string name="pref_camera_focusmode_label_infinity">INFINITO</string>
-  <string name="pref_camera_focusmode_label_macro">MACRO</string>
   <!-- Default flash mode setting.-->
   <!-- Value for flash off setting-->
   <!-- Settings screen, Flash mode title -->
@@ -586,7 +566,6 @@
   <string name="pref_camera_whitebalance_entry_fluorescent">Luce neon</string>
   <string name="pref_camera_whitebalance_entry_cloudy">Nuvoloso</string>
   <!-- Menu, White balance labels [CHAR LIMIT=50] -->
-  <string name="pref_camera_whitebalance_label_auto">AUTO</string>
   <string name="pref_camera_whitebalance_label_incandescent">LUCE INCANDESCENZA</string>
   <string name="pref_camera_whitebalance_label_daylight">LUCE DIURNA</string>
   <string name="pref_camera_whitebalance_label_fluorescent">LUCE NEON</string>
@@ -597,7 +576,6 @@
   <!-- Settings menu, scene mode choices [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_auto">Automatica</string>
   <!-- Scene mode that uses HDR (high dynamic range) [CHAR LIMIT=16] -->
-  <string name="pref_camera_scenemode_entry_hdr">HDR</string>
   <!-- Scene mode that takes an image quickly with little motion blur. [CHAR LIMIT=16] -->
   <string name="pref_camera_scenemode_entry_action">Movimento</string>
   <!-- Scene mode that takes long exposures to capture night scenes without flash. [CHAR LIMIT=16] -->
@@ -636,13 +614,11 @@
   <string name="pref_exposure_label">ESPOSIZIONE</string>
   <!-- Default HDR entry value -->
   <!-- HDR label ON [CHAR LIMIT=60] -->
-  <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_back">FOTOCAMERA ANTERIORE</string>
   <!-- switch camera label front [CHAR LIMIT=60] -->
   <string name="pref_camera_id_label_front">FOTOCAMERA POSTERIORE</string>
   <!-- Dialog "OK" button. Dismisses dialog. -->
-  <string name="dialog_ok">OK</string>
   <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
   <string name="spaceIsLow_content" product="nosdcard">Lo spazio dell\'archivio USB si sta esaurendo. Cambia l\'impostazione di qualità o elimina alcune immagini o altri file.</string>
   <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
@@ -758,9 +734,7 @@ CHAR LIMIT = NONE] -->
   <string name="accessibility_time_bar">Barra temporale del video player</string>
   <!-- TODO: remove the string as it is a work-around solution to bypass the default speak of the element type. -->
   <!-- Default text for a button that can be toggled on and off. -->
-  <string name="capital_on">ON</string>
   <!-- Default text for a button that can be toggled on and off. -->
-  <string name="capital_off">OFF</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
   <string name="pref_video_time_lapse_frame_interval_off">OFF</string>
   <!-- Text to indicate time lapse recording frame interval [CHAR LIMIT = 30] -->
@@ -896,7 +870,6 @@ CHAR LIMIT = NONE] -->
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
   <string name="headset_plug">Collega le cuffie per avere questi effetti.</string>
   <!-- The title of the audio effects dialog. -->
-  <string name="audio_effects_dialog_title">Snapdragon Audio+</string>
   <!-- The tips of trimming video -->
   <string name="fail_trim">Spiacente, questo file video non può essere tagliato</string>
 </resources>
